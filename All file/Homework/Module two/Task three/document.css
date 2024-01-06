@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+    font-size: larger;
+}
+
+#para {
+    border: 3px solid purple;
+    text-align: justify;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+
+#pera {
+    border: 3px dotted violet;
+    text-align: center;
+    padding: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    margin: 8px;
+}
+
+.tira {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid magenta;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    margin: 7px;
+}
+
+.pira {
+    background-color: blueviolet;
+    text-align: justify;
+    padding: 10px;
+    font-size: x-large;
+}

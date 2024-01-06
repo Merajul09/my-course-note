@@ -1,0 +1,11 @@
+h2 {
+    text-align: center;
+    color: brown;
+    font-size: xx-large;
+}
+
+.para {
+    text-align: justify;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}

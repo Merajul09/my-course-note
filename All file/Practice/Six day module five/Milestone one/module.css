@@ -1,0 +1,112 @@
+.main {
+    width: 1040px;
+    height: 470px;
+    background-color: beige;
+    margin: 50px auto;
+}
+
+h3:hover {
+    border-radius: 50%;
+    background-color: goldenrod;
+}
+
+.mone {
+    height: 150px;
+    width: 340px;
+    background-image: linear-gradient(to right, #614385, #516395);
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+}
+
+.mtwo {
+    height: 150px;
+    width: 340px;
+    background-image: linear-gradient(to right, #EA8D8D, #A890FE);
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 350px;
+}
+
+.mthree {
+    height: 150px;
+    width: 340px;
+    background-image: linear-gradient(45deg, #D16BA5, #86A8E7, #5ffbf183);
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 700px;
+}
+
+.mfour {
+    height: 150px;
+    width: 340px;
+    background-image: linear-gradient(to right, blue, pink);
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+}
+
+
+.mfive {
+    height: 150px;
+    width: 340px;
+    background-image: linear-gradient(to right, blue, pink);
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+    margin-left: 350px;
+}
+
+.msix {
+    height: 150px;
+    width: 340px;
+    background-image: linear-gradient(to right, blue, pink);
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+    margin-left: 700px;
+}
+
+.mseven {
+    height: 150px;
+    width: 340px;
+    background-image: linear-gradient(to right, blue, pink);
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 320px;
+}
+
+.meight {
+    height: 150px;
+    width: 340px;
+    background-image: linear-gradient(to right, blue, pink);
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 320px;
+    margin-left: 350px;
+}
+
+.mnine {
+    height: 150px;
+    width: 340px;
+    background-image: linear-gradient(to right, blue, pink);
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 320px;
+    margin-left: 700px;
+}
+
+.milestone-one-head {
+    text-align: center;
+    color: wheat;
+    padding: 5px;
+    margin: 50px 50px;
+}

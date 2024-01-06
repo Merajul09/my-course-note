@@ -1,0 +1,28 @@
+h2 {
+    color: blueviolet;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.one {
+    text-align: justify;
+    background-color: mediumpurple;
+    padding: 5px;
+}
+
+.two {
+    background-image: url(https://img.freepik.com/free-photo/lone-tree_181624-46361.jpg?w=740&t=st=1704196564~exp=1704197164~hmac=c634a77707a5d9e8b9e2bf82b0807b6604c3a2543f72f807f56c5dee501c1ced);
+    background-size: contain;
+    color: aliceblue;
+    padding: 5px;
+    text-align: justify;
+}
+
+.three {
+    background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=740&t=st=1704196876~exp=1704197476~hmac=b6436b8867f03c484c69611b2997c431cfab5113061ad58fd3c6426173e28e1b);
+    background-size: cover;
+    color: darkgoldenrod;
+    text-align: justify;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

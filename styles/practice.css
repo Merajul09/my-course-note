@@ -1,0 +1,20 @@
+fieldset {
+    margin: 50px 100px;
+    display: flex;
+    padding: 25px 50px;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+legend {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+div a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}

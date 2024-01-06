@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            margin: auto 20px;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+
+        fieldset {
+            width: 25%;
+            margin: auto 40%;
+        }
+
+        legend {
+            text-align: center;
+        }
+
+        .tag {
+            margin-left: auto;
+        }
+
+        .first-box {
+            margin-left: 10px;
+        }
+
+        .table-box {
+            margin-top: -400px;
+        }
+
+        textarea {
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset class="first-box">
+        <legend>
+            <h3>What we learned in this session</h3>
+        </legend>
+        <fieldset class="tag">
+            <legend>HTML Tag</legend>
+            <textarea cols="30"
+                rows="5">fieldset, legend, h1,h3, textarea, table, thead, tbody, tfoot, tr, th, td, body, style, title, meta, head, html  </textarea>
+        </fieldset>
+        <fieldset class="tag">
+            <legend>Css property</legend>
+            <textarea cols="30" rows="4">border-collapse, margin, padding, border, text-align, width, margin-top, margin-left
+            </textarea>
+        </fieldset>
+        <fieldset class="tag">
+            <legend>HTML attributes</legend>
+            <textarea cols="30" rows="3">colspan, cols, rows, class
+            </textarea>
+        </fieldset>
+    </fieldset>
+    <fieldset class="table-box">
+        <legend>
+            <h1>HTML Table </h1>
+        </legend>
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Murad</td>
+                    <td>Google</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Moon</td>
+                    <td>Facebook</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Hasan</td>
+                    <td>Microsoft</td>
+                    <td>$1500</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Meraj</td>
+                    <td>Apple</td>
+                    <td>$1400</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2"> Total Employee: 4</td>
+                </tr>
+            </tfoot>
+        </table>
+    </fieldset>
+</body>
+
+</html>

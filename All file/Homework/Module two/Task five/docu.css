@@ -1,0 +1,26 @@
+h2 {
+    color: blueviolet;
+    text-align: center;
+    background-color: tan;
+    margin: 0 100px;
+}
+
+.pira {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid violet;
+    padding: 9px;
+    border-radius: 9px;
+}
+
+.para {
+    text-align: justify;
+    border: 3px solid mediumpurple;
+    border-radius: 9px;
+    padding: 8px;
+    box-shadow: 5px 10px seagreen;
+}
+
+.pic {
+    margin: 25px 100px;
+}

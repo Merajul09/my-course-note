@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input attributes practice</title>
+</head>
+
+<body>
+    <h2>input attributes</h2>
+    <!-- autofocus,maxlength and required attribute -->
+    <label for="fname">First Name:</label>
+    <input type="text" name="username" id="fname" autofocus required maxlength="8">
+    <br><br>
+    <!-- readonly and placeholder attribute -->
+    <!-- different between placeholder and value -->
+    <label for="lname">Last Name:</label>
+    <input type="text" name="username" id="lname" placeholder="This is readonly" readonly>
+    <br><br>
+    <!-- disabled and size attribute -->
+    <!-- different between value and placeholder -->
+    <label for="age">Age:</label>
+    <input type="text" value="15+" disabled size="3">
+    <br><br>
+    <!-- accept and multiple attribute -->
+    <label for="file">Uplode</label>
+    <input type="file" name="userfile" id="file" accept="image/*,audio/*" multiple>
+    <br><br>
+    <!-- checked attribute -->
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="gender" checked>
+    <label for="gender">Male</label>
+    <input type="radio" name="gender" id="gender">
+    <label for="gender">Female</label>
+    <br><br>
+    <!-- min, max, step, value and type attribute -->
+    Number:<input type="number" name="number" id="num" min="15" max="65" step="10" value="35">
+    <br><br>
+    <select name="fruits" id="fruits">
+        <option value="Mango">mango</option>
+        <option value="banana">Banana</option>
+        <option value="litchi" selected>lichi</option>
+    </select>
+    <br><br>
+
+</body>
+
+</html>

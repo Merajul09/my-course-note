@@ -1,0 +1,28 @@
+h2 {
+    color: blueviolet;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+p {
+    text-align: justify;
+    margin: 10px;
+}
+
+#ita {
+    font-style: italic;
+    font-size: large;
+    border: 2px solid violet;
+    border-radius: 10px;
+}
