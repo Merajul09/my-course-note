@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.primary-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.primary-btn {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.primary-color {
+    color: #E55473;
+    ;
+}
+
+.secondary-heading {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.secondary-paragraph {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 25px auto 30px auto;
+    text-align: center;
+}
+
+/*===================================
+            Header CSS
+====================================*/
+header {
+    height: fit-content;
+    padding: 50px 0px 0px 0px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+header .heroSection {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .heroSection .leftInformation {
+    width: 708px;
+}
+
+header .heroSection .leftInformation h2 {
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+header .heroSection .leftInformation p {
+    margin: 30px 0px;
+}
+
+header .heroSection .rightImage {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
+
+/*===================================
+            Featured CSS
+====================================*/
+main .featured {
+    align-items: center;
+    text-align: center;
+    margin-top: 175px;
+}
+
+main .featured .featuredFlowers {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main .featured .featuredFlowers .flower1 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+main .featured .featuredFlowers .flower1 img {
+    width: 310px;
+    height: 428px;
+    margin-top: 110px;
+    flex-shrink: 0;
+}
+
+main .featured .featuredFlowers .flower2 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+main .featured .featuredFlowers .flower2 img {
+    width: 310px;
+    height: 428px;
+    margin-top: 110px;
+    flex-shrink: 0;
+}
+
+main .featured .featuredFlowers .flower3 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+main .featured .featuredFlowers .flower3 img {
+    width: 310px;
+    height: 428px;
+    margin-top: 110px;
+    flex-shrink: 0;
+}
+
+main .featured .featuredFlowers .flower1 h5 {
+    color: #272727;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: 30px;
+}
+
+main .featured .featuredFlowers .flower2 h5 {
+    color: #272727;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: 30px;
+}
+
+main .featured .featuredFlowers .flower3 h5 {
+    color: #272727;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: 30px;
+}
+
+/*===================================
+            Features CSS
+====================================*/
+main .features {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    gap: 130px;
+    height: 320px;
+    flex-shrink: 0;
+    margin: 200px auto;
+    justify-content: center;
+}
+
+main .features .feature img {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+}
+
+main .features .feature p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/*===================================
+            Hot Deals CSS
+====================================*/
+main .hotDeals {
+    height: fit-content;
+    padding: 50px 0px 0px 0px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+main .hotDeals .hotDealsContainer {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 150px;
+    width: fit-content;
+    margin: auto;
+}
+
+main .hotDeals .hotDealsContainer .leftInformation {
+    width: 595px;
+    text-align: center;
+}
+
+main .hotDeals .hotDealsContainer .leftInformation h2 {
+    font-size: 35px;
+}
+
+header .heroSection .rightImage {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
+
+/*===================================
+            Instagram CSS
+====================================*/
+main .instagram {
+    margin-top: 125px;
+}
+
+main .instagram .instagramPosts {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .instagram .instagramPosts .post img {
+    width: 332px;
+    height: 376px;
+    flex-shrink: 0;
+}
+
+/*===================================
+            Latest deals CSS
+====================================*/
+main .latestDeals {
+    background-image: url(../image/Rectangle\ 9.png);
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    margin-top: 125px;
+    align-items: center;
+    text-align: center;
+}
+
+main .latestDeals h2 {
+    margin-top: 120px;
+    padding-top: 120px;
+}
+
+main .latestDeals .subscribers input {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 20px;
+}
+
+/*===================================
+            Footer CSS
+====================================*/
+footer {
+    height: 449px;
+    flex-shrink: 0;
+    background-color: #111010;
+    margin-top: 125px;
+}
+
+footer .footerContents h2 {
+    color: white;
+    padding-top: 125px;
+}
+
+footer .footerContents p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+}
+
+footer .footerContents p:nth-child(3) {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
