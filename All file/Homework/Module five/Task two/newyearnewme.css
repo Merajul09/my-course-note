@@ -1,0 +1,292 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    color: #151414;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+/*
+            Header CSS
+                                   */
+header {
+    border: 2px solid transparent;
+    background-image: url(../img/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header .headerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+/* header .headerSection .leftSection {
+    width: 525px;
+} */
+
+header .headerSection .rightSection {
+    width: 525px;
+    text-align: right;
+}
+
+header .headerSection .rightSection h2 {
+    text-align: right;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header .headerSection .rightSection p {
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 25px 0px 30px 0px;
+}
+
+header .headerSection .rightSection button {
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F15B22;
+    border: #F15B22;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/*
+        Failure Section CSS
+                                   */
+main .mainFailureSection {
+    display: flex;
+    width: fit-content;
+    gap: 100px;
+    align-items: center;
+    text-align: center;
+    margin: 360px auto 0px auto;
+}
+
+main .mainFailureSection .leftSection {
+    align-items: center;
+    text-align: center;
+    height: 540px;
+    width: 540px;
+    border-radius: 579px;
+    background: rgba(241, 91, 34, 0.20);
+}
+
+main .mainFailureSection .leftSection img {
+    height: 724px;
+    width: 579px;
+    margin-top: -184px;
+    margin-left: -18px;
+}
+
+main .mainFailureSection .rightSection {
+    width: 420px;
+    text-align: left;
+}
+
+main .mainFailureSection .rightSection h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main .mainFailureSection .rightSection p {
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 25px 0px 25px 0px;
+}
+
+main .mainFailureSection .rightSection ul {
+    list-style: none;
+}
+
+main .mainFailureSection .rightSection ul li:before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns "http://www.w3.org/2000/svg" width "24" height "24" viewBox "0 0 24 24" fill "none"><path d "M20 6L9 17L4 12" stroke "%2316D887" stroke-width "2" stroke-linecap "round" stroke-linejoin "round"/></svg>');
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/*
+        Plans Section CSS
+                                   */
+main .myPlanSection {
+    text-align: center;
+    margin-top: 200px;
+}
+
+main .myPlanSection h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 50px;
+}
+
+main .myPlanSection .myplans {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .myPlanSection .myplans img {
+    margin: 20px;
+}
+
+main .myPlanSection .myplans .plans h3 {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main .myPlanSection .myplans .plans p {
+    color: #737272;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 20px;
+}
+
+/*
+        Call Now Section CSS
+                                   */
+main .callNow {
+    background-image: url(../img/gradient1.png), url(../img/watch.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-top: 130px;
+    padding: 60px;
+    align-items: center;
+    display: flex;
+}
+
+main .callNow .callContainer h2 {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main .callNow .callContainer button {
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border: #F15B22;
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 24px 0px 0px 0px;
+}
+
+/*
+        footer Section CSS
+                                   */
+footer {
+    background: #151414;
+    height: fit-content;
+    flex-shrink: 0;
+}
+
+footer .footerContents {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footerContents .footerLeftSection {
+    width: 485px;
+    margin: 40px 0px;
+}
+
+footer .footerContents .footerLeftSection h2 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer .footerContents .footerLeftSection p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 485px;
+    margin: 20px 0px;
+}
+
+footer .footerContents .footerRightSection {
+    width: 485px;
+    margin: 40px 0px;
+}
+
+footer .footerContents .footerRightSection h2 {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 20px;
+}
+
+footer .footerContents .footerRightSection input {
+    width: 325px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+    background-color: #151414;
+    margin: 20px;
+}
+
+footer .footerContents .footerRightSection button {
+    width: 170.106px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: #fff;
+    color: #F15B22;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 20px;
+}
