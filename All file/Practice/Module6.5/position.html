@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css position</title>
+    <style>
+        .main {
+            position: relative;
+            height: 2000px;
+        }
+
+        .first {
+            border: 1px solid red;
+            background-color: gold;
+            width: 500px;
+            height: 250px;
+        }
+
+        .second {
+            border: 1px solid blue;
+            background-color: green;
+            width: 500px;
+            height: 250px;
+            position: relative;
+        }
+
+        .third {
+            border: 1px solid #ff5100;
+            background-color: purple;
+            width: 500px;
+            height: 250px;
+        }
+
+        .fourth {
+            border: 1px solid blue;
+            background-color: green;
+            width: 500px;
+            height: 250px;
+            position: relative;
+        }
+
+
+        .one {
+            background-color: red;
+            width: 150px;
+            height: 50px;
+            border: 2px dotted black;
+        }
+
+        #divone {
+            position: relative;
+            top: 25px;
+            left: 25px;
+            text-align: center;
+        }
+
+        .two {
+            background-color: #ffd000;
+            width: 250px;
+            height: 30px;
+            border: 10px double black;
+        }
+
+        #divtwo {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            text-align: center;
+        }
+
+        .three {
+            background-color: red;
+            width: 200px;
+            height: 30px;
+            border: 10px solid black;
+        }
+
+        #divthree {
+            position: sticky;
+            top: 0;
+            left: 250px;
+            text-align: center;
+        }
+
+        .four {
+            background-color: #ffd000;
+            width: 250px;
+            height: 30px;
+            border: 10px double black;
+        }
+
+        #divfour {
+            position: fixed;
+            top: 50px;
+            left: 350px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>css Positions</h3>
+    <ol>
+        <!-- flow reated -->
+        <li>static</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <!-- scroll related -->
+        <li>fixed</li>
+        <li>sticky</li>
+    </ol>
+    <div class="main">
+        <div class="first">
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one" id="divone"> Relative</div>
+            <div class="one"></div>
+            <div class="one"></div>
+        </div>
+        <div class="second">
+            <div class="two"></div>
+            <div class="two"></div>
+            <div class="two" id="divtwo">Absolute</div>
+            <div class="two"></div>
+            <div class="two"></div>
+        </div>
+        <div class="third">
+            <div class="three" id="divthree">sticky</div>
+            <div class="three"></div>
+            <div class="three"></div>
+            <div class="three"></div>
+            <div class="three"></div>
+        </div>
+        <div class="fourth">
+            <div class="four"></div>
+            <div class="four"></div>
+            <div class="four" id="divfour">fixed</div>
+            <div class="four"></div>
+            <div class="four"></div>
+        </div>
+    </div>
+</body>
+
+</html>
