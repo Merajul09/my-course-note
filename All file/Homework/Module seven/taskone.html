@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task one</title>
+    <style>
+        body {
+            width: 95%;
+            height: 100vh;
+        }
+
+        .main {
+            display: flex;
+            text-align: center;
+        }
+
+        .divone {
+            background-color: aqua;
+            width: 30%;
+            height: 90vh;
+
+            border-radius: 10px;
+
+        }
+
+        .divtwo {
+            background-color: brown;
+            width: 70%;
+            height: 90vh;
+
+            border-radius: 10px;
+        }
+
+        @media screen and (max-width:576px) {
+            .main {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 100vh;
+            }
+
+            .divone {
+                width: 100%;
+                height: 30%;
+            }
+
+            .divtwo {
+                width: 100%;
+                height: 70%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="main">
+            <div class="divone">Left</div>
+            <div class="divtwo">Right</div>
+        </div>
+    </section>
+</body>
+
+</html>
