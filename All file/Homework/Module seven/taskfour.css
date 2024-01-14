@@ -1,0 +1,38 @@
+main h1,
+p {
+    margin: 0;
+    text-align: justify;
+}
+
+.first {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.second {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+button {
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    width: 90px;
+    height: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:576px) {
+
+    .first,
+    .second {
+        flex-direction: column;
+    }
+
+}
