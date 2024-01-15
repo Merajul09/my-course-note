@@ -66,13 +66,14 @@ body {
 }
 
 .menu img {
-
     height: 36px;
 }
 
 .first-section-div {
+    height: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
     padding: 30px;
     flex-wrap: wrap;
